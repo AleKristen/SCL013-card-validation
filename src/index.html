@@ -1,14 +1,112 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mystere</title>
+	<link rel="stylesheet" href="style.css" />
+	<script> src="index.js"
+	</script>
+</head>
+
+<body>
+  
+<header> <!--logo-->
+		<img src="http://imgfz.com/i/oT28Gr0.png">
+</header>
+
+<main>
+<!--PANTALLA1-->
+<div id="pantalla1" class="img1">
+
+    <h1 id="titulo1">MYSTERE</h1>
+    <p id="parrafo1">Mystere es un tributo al arte del cuerpo humano: gracioso, atlético, capaz de realizar proezas que desafían nuestra visión del mundo real.
+    Este mundo es una aventura alegre llena de música y de colores brillantes, atletismo y amigos burbujeantes. Abundan las tonterías, las acrobacias locas y las bromas alucinantes.
+    Descubra el lado bonito de la vida, sólo en Santiago, Chile. <br><br><b>¡Reserva hoy mismo!</b>
+    <br>
+    <h2 id="detalle">Cantidad de entradas: 1 <br>
+Precio unitario: $40.000</h2></p>
+
+ <button id="boton1"><a style="color:#000000">COMPRAR TICKET</a>
+ </button>
+</div>
+
+<!--PANTALLA2-->
+<div id="pantalla2" class="img2">
+<div class="cuadros">
+    <center>
+   <br> 
+   <h3 id="titulo2">INGRESA TUS DATOS: </h3> 
+    <br>
+   <input type ="text" name="Nombres" id="Nombres"  placeholder="Nombre y Apellido" onkeypress="return (event.charCode >= 97 && event.charCode <= 122 || event.charCode >= 65 && event.charCode <= 90)" required> 
+   <br>
+   <input type="email" name="Email" id="email" placeholder="E-mail">
+   <br>   
+<input type="text" maxlength="16"  name="ntarjeta" id="creditCardNumber" placeholder="N° de Tarjeta" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" required> 
+   <br>
+   <br>
+   <img src="https://dcdvorhppydqs.cloudfront.net/wp-content/uploads/2016/10/logo_webpay.jpg" width="220px">
+   <br>
+ <button type="button" id="boton2">COMPRAR TICKET</button>
+
+  
+   </center>
+  </div>
+</div>
+
+<!--PANTALLA3-->
+<div id="pantalla3" class="img3">
+<div class="cuadros">
+  <center>
+
+<h3 id="titulo3">TU TARJETA ES VÁLIDA</h3>
+<br>
+<img src="http://imgfz.com/i/AakxCNz.png" width="70px">
+
+<p id=parrafo3>Compra realizada con número de tarjeta:</p>
+</center>
+<h2 id="maskify"></h2> <br>
+<div id="imgQr">
+<img style="float:left;" src="https://www.codigos-qr.com/qr/php/qr_img.php?d=https%3A%2F%2Fwww.cirquedusoleil.com%2F&s=6&e=m">
+<br>
+<p id=textoQR>Presenta este código QR<br> en tu celular el día del evento.<br> ¡Te esperamos!</p>
+<div id="validador"> </div> 
+</div>
+</div>
+
+
+<!--<div class="cuadroinv"> -->
+  <center>
+     <button id="boton3"><a style="color:#000000" >INICIO</a>
+     </button>
+  </center>
+<!--</div>-->
+
+</div>
+
+  <!--PANTALLA4-->
+<div id="pantalla4" class="img3">
+<div class="cuadros">
+<center>
+
+<h3 id="titulo4">TU TARJETA ES INVÁLIDA</h3>
+<br>
+<img src="http://imgfz.com/i/aSAW4ye.png" width="70px">
+
+<p id=parrafo3>La compra no pudo ser realizada, vuelve a
+  <br>
+   ingresar tus datos con una tarjeta válida.</p>
+
+     <button id="boton4"><a style="color:#000000">VOLVER</a>
+     </button>
+  <center>
+</div>
+  </div>
+
+
+
+</main>
+    
+</body>
+<script src="index.js" type="module"></script>
 </html>
