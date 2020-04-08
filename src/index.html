@@ -5,8 +5,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Mystere</title>
 	<link rel="stylesheet" href="style.css" />
-	<script> src="index.js"
-	</script>
 </head>
 
 <body>
@@ -33,7 +31,7 @@ Precio unitario: $40.000</h2></p>
 
 <!--PANTALLA2-->
 <div id="pantalla2" class="img2">
-<div class="cuadros">
+  <div id="cuadro2">
     <center>
    <br> 
    <h3 id="titulo2">INGRESA TUS DATOS: </h3> 
@@ -48,63 +46,47 @@ Precio unitario: $40.000</h2></p>
    <img src="https://dcdvorhppydqs.cloudfront.net/wp-content/uploads/2016/10/logo_webpay.jpg" width="220px">
    <br>
  <button type="button" id="boton2">COMPRAR TICKET</button>
-
-  
    </center>
   </div>
-</div>
 
-<!--PANTALLA3-->
-<div id="pantalla3" class="img3">
-<div class="cuadros">
-  <center>
-
-<h3 id="titulo3">TU TARJETA ES VÁLIDA</h3>
-<br>
-<img src="http://imgfz.com/i/AakxCNz.png" width="70px">
-
-<p id=parrafo3>Compra realizada con número de tarjeta:</p>
-</center>
-<h2 id="maskify"></h2> <br>
-<div id="imgQr">
-<img style="float:left;" src="https://www.codigos-qr.com/qr/php/qr_img.php?d=https%3A%2F%2Fwww.cirquedusoleil.com%2F&s=6&e=m">
-<br>
-<p id=textoQR>Presenta este código QR<br> en tu celular el día del evento.<br> ¡Te esperamos!</p>
-<div id="validador"> </div> 
-</div>
-</div>
-
-
-<!--<div class="cuadroinv"> -->
-  <center>
-     <button id="boton3"><a style="color:#000000" >INICIO</a>
-     </button>
-  </center>
-<!--</div>-->
-
-</div>
-
-  <!--PANTALLA4-->
-<div id="pantalla4" class="img3">
-<div class="cuadros">
+ <!--PANTALLA 3 invalido-->
+ <div id="cuadro3">
 <center>
-
-<h3 id="titulo4">TU TARJETA ES INVÁLIDA</h3>
+<h3 id="titulo3">TU TARJETA ES INVÁLIDA</h3>
 <br>
 <img src="http://imgfz.com/i/aSAW4ye.png" width="70px">
-
+<br>
 <p id=parrafo3>La compra no pudo ser realizada, vuelve a
   <br>
    ingresar tus datos con una tarjeta válida.</p>
 
-     <button id="boton4"><a style="color:#000000">VOLVER</a>
+     <button id="boton3"><a style="color:#000000">VOLVER</a>
      </button>
   <center>
-</div>
   </div>
 
+<!--PANTALLA 4 valido-->
+<div id="cuadro4">
+  <center>
+
+<h3 id="titulo4">TU TARJETA ES VÁLIDA</h3>
+<br>
+<img src="http://imgfz.com/i/AakxCNz.png" width="70px">
+<p id=parrafo4>Compra realizada con número de tarjeta:</p>
+<p id="cardNumOculto1"></p>
+<p id="numeroOculto1"></p>
+<h2 id="maskify"></h2> <br>
+<div id="validador"> </div>
+<div id="imgQr">
+<img src="http://imgfz.com/i/TWo0rs1.png" width="260px">  
+</div> 
+<button id="boton4"><a style="color:#000000" >INICIO</a>
+</button>
+</center>
+</div>
 
 
+</div>
 </main>
     
 </body>
