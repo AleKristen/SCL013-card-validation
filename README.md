@@ -11,7 +11,7 @@ permite al usuario corroborar si el número que ingresa es válido o no.
  
 ![Imagen 1](http://imgfz.com/i/8uWxdfR.png)
 ![Imagen 2](http://imgfz.com/i/GUa2qx3.png)
-![Imagen 3](http://imgfz.com/i/SghLa7u.png)
+![Imagen 3](http://imgfz.com/i/sOir42M.png)
 ![Imagen 4](http://imgfz.com/i/Q8rU2y1.png)
 ![Imagen 5](http://imgfz.com/i/LS9x3NP.png)
  
@@ -23,13 +23,13 @@ Los usuarios son público en general que necesiten comprar, con tarjeta, entrada
  
 El objetivo es que el usuario pueda verificar si su tarjeta es válida para poder comprar entradas.
  
-* **Solución de problemas/necesidade**
+* **Solución de problemas/necesidades**
  
 El producto hace que la compra realizada sea rápida y eficaz gracias a la posibilidad de verificar en el formulario si el número de la tarjeta del usuario es válida o no.
  
 * **Primer prototipo (papel)**
  
-![Prototipo papel](http://imgfz.com/i/8uWxdfR.png)
+![Prototipo papel](http://imgfz.com/i/Q96Xvd4.jpeg)
  
 * **Feedback**
  
