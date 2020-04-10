@@ -6,9 +6,7 @@ El proyecto consiste en crear la simulación de la compra de entradas
 en la página web de Cirque du Soleil, utilizando un validador de tarjetas
 basado en el algoritmo de Luhn (método de suma de verificación), que le
 permite al usuario corroborar si el número que ingresa es válido o no.
- 
-![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
- 
+  
 ## 2. Proyecto final
  
 ![Imagen 1](http://imgfz.com/i/8uWxdfR.png)
