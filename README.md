@@ -23,7 +23,7 @@ Los usuarios son público en general que necesiten comprar, con tarjeta, entrada
  
 El objetivo es que el usuario pueda verificar si su tarjeta es válida para poder comprar entradas.
  
-* **Solución de problemas/necesidades**
+* **Solución de problemas y necesidades**
  
 El producto hace que la compra realizada sea rápida y eficaz gracias a la posibilidad de verificar en el formulario si el número de la tarjeta del usuario es válida o no.
  
