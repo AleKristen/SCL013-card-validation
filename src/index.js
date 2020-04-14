@@ -33,6 +33,8 @@ document.getElementById("boton2").addEventListener("click", ()=>{
   const numIngresado = document.getElementById("numTarjeta").value;
   let numResultado = true;
   let numOculto;
+  let contenedorVacio;
+  let contenedorAlerta;
   numResultado = validador.isValid(numIngresado);
 
     if (numIngresado.length == 0) {

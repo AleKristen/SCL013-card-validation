@@ -6,6 +6,10 @@ El proyecto consiste en crear la simulación de la compra de entradas
 en la página web de Cirque du Soleil, utilizando un validador de tarjetas
 basado en el algoritmo de Luhn (método de suma de verificación), que le
 permite al usuario corroborar si el número que ingresa es válido o no.
+
+La elección del diseño fue pensada para representar la elegancia de este circo
+siguiendo su línea gráfica. Además hacer una interfaz cómoda y simple para 
+facilitar la experiencia del usuario.
   
 ## 2. Proyecto final
  

@@ -5,7 +5,7 @@ const validador = {
       let numReverso = Array.from(numLuhn).reverse();
   //"suma" declara que la suma de todos los numeros ingresados comiencen desde 0 
       let suma = 0;
-      let estado = true; 
+      let estado = true;
   //bucle
       for (let i = 0; i < numReverso.length; i++) {      
   //con el residuo de 2 se descubre si es una posición par
