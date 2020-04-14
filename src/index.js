@@ -23,7 +23,6 @@ document.getElementById("boton4").addEventListener("click", ()=>{
   document.getElementById("cuadro4").style.display="none";
   document.getElementById("cuadro2").style.display="block";
 });
-
 //Botón2 lleva a: dependiendo de si el valido o no el numero ingresado
 document.getElementById("boton2").addEventListener("click", ()=>{
   document.getElementById("cuadro3").style.display="none";
